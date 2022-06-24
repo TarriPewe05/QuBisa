@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #54bab9;
+  color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+section {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    margin-left: 20px;
+
+}
+
+a:hover{
+    color: crimson;
+}

@@ -1,0 +1,35 @@
+.card {
+  border: 2px dashed palegreen;
+  border-radius: 10px;
+  padding: 5px;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 3s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+.card:hover {
+  border: 2px dotted red;
+  background-color: bisque;
+  width: 50%;
+}
+
+.title {
+  text-shadow: 1px 2px grey;
+  text-transform: lowercase;
+}
+
+.title:hover {
+  color: purple;
+  text-shadow: none;
+  text-transform: uppercase;
+}
